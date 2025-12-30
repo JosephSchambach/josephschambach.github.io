@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconciliation Is a System Requirement | Joseph Schambach</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container">
+        <h1>Reconciliation Is a System Requirement</h1>
+        <p class="subtitle">
+            Why reconciliation isn’t a feature, but a foundational system property.
+        </p>
+    </div>
+</header>
+
+<main class="container">
+
+    <article>
+        <p>
+            When most engineers hear “reconciliation,” they think of code that compares two datasets and
+            reports differences. In practice, reconciliation is neither a feature nor a script — it is
+            a system property.
+        </p>
+
+        <p>
+            Every process has expectations. A customer should have this document, that status, these
+            permissions. But most systems only record what exists, not what should exist.
+        </p>
+
+        <p>
+            That distinction matters. A system that can’t define its own expectations has no way of
+            recognizing incompleteness.
+        </p>
+
+        <p>
+            The consequences show up everywhere: CSV exports that silently drop rows, dashboards that
+            never flag missing data, workflows that assume success unless explicitly told otherwise.
+        </p>
+
+        <p>
+            In each case, the system isn’t broken — it’s blind.
+        </p>
+
+        <p>
+            Real reconciliation requires three things.
+        </p>
+
+        <p>
+            First, an explicit model of expected state. Not what might exist, but what should exist.
+        </p>
+
+        <p>
+            Second, a reliable representation of actual state. Not approximations or inferred signals.
+        </p>
+
+        <p>
+            Third, a mechanism for closing loops. Visibility without action is just noise.
+        </p>
+
+        <p>
+            Teams avoid reconciliation not because it’s hard, but because they assume missing issues
+            will be noticed organically. That assumption holds only when systems are small and complexity
+            is limited.
+        </p>
+
+        <p>
+            As systems scale, the cost of unknowns grows: silent failures, untracked exceptions, and
+            widening gaps between perceived and actual state.
+        </p>
+
+        <p>
+            Reconciliation isn’t something you add to a backlog. It’s the act of designing a system
+            that can admit incompleteness — and respond to it.
+        </p>
+    </article>
+
+    <p>
+        <a href="index.html">← Back to Writing</a>
+    </p>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; 2025 Joseph Schambach</p>
+    </div>
+</footer>
+
+</body>
+</html>

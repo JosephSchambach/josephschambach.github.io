@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Fragmented Workflows to a Unified State | Joseph Schambach</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container">
+        <h1>From Fragmented Workflows to a Unified State</h1>
+        <p class="subtitle">
+            How consolidating data into Databricks reduced operational friction and improved decision-making.
+        </p>
+    </div>
+</header>
+
+<main class="container">
+
+    <article>
+        <p>
+            At one point, our operational workflows were a jigsaw puzzle of tooling: Coda for ad hoc tables,
+            SQL queries scattered across environments, CSV exports passed around via Teams, and a handful
+            of API calls that were honestly more brittle than helpful.
+        </p>
+
+        <p>
+            Each of these pieces worked in isolation, but collectively they didn’t. When asked a simple
+            question like “what’s the real state of this customer today?”, the answer was often a guess —
+            or a slow process that touched multiple systems.
+        </p>
+
+        <p>
+            We knew what needed to happen. Customers had states, configurations, and metadata — but we
+            lacked a reliable way to query all of it together.
+        </p>
+
+        <p>
+            That changed when we consolidated most of our datasets into Databricks using delta tables.
+            Customer data, configuration tables, and logs now lived in a single system designed for
+            consistency, performance, and scale.
+        </p>
+
+        <p>
+            Two benefits became immediately clear.
+        </p>
+
+        <p>
+            First, we gained consistent access to a single source of truth. We stopped juggling exports,
+            copying files, and reconciling mismatched datasets. Delta tables gave us a canonical way to
+            query what actually exists.
+        </p>
+
+        <p>
+            Second, we gained flexibility without sacrificing performance. Instead of stitching together
+            dashboards fed by separate pipelines, we could run unified queries that answered real
+            operational questions in seconds.
+        </p>
+
+        <p>
+            The impact went beyond speed. What used to be a collection of semi-trusted artifacts became
+            a dependable foundation for dashboards, automated jobs, and decision-making. We stopped
+            asking “Is this right?” and started asking “What does this tell us?”
+        </p>
+
+        <p>
+            From a systems perspective, this shift — from fragmented truth to unified state — reduced
+            cognitive load, eliminated hidden discrepancies, and increased confidence across teams.
+        </p>
+
+        <p>
+            The tooling changed, but more importantly, the model changed. We moved from wrestling
+            multiple realities to querying a single, reliable one.
+        </p>
+    </article>
+
+    <p>
+        <a href="index.html">← Back to Writing</a>
+    </p>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; 2025 Joseph Schambach</p>
+    </div>
+</footer>
+
+</body>
+</html>
