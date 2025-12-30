@@ -7,25 +7,66 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Joseph Schambach's Website</h1>
+
+    <header class="site-header">
+        <div class="container">
+            <h1>Joseph Schambach</h1>
+            <p class="subtitle">
+                Software engineer writing about broken systems, operational gaps, and building reliable software.
+            </p>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Learn more <a href="about/index.html">about me</a>.</p>
+
+    <main class="container">
+
+        <section class="intro">
+            <p>
+                I explore how systems fail quietly — not because of bugs, but because of missing follow-ups,
+                unclear ownership, and fragile assumptions. My work sits at the intersection of software,
+                operations, and thoughtful system design.
+            </p>
         </section>
-        <section>
-            <h2>My Writing</h2>
-            <p>Check out <a href="writing/index.html">my writing</a>.</p>
+
+        <section class="featured">
+            <h2>Writing</h2>
+            <ul class="writing-list">
+                <li>
+                    <a href="writing/index.html">Why Reconciliation Is a Systems Problem</a>
+                    <span class="description">An essay on where operational breakdowns actually come from.</span>
+                </li>
+                <li>
+                    <a href="writing/index.html">Designing Follow-Up Into Software</a>
+                    <span class="description">How reliable systems close loops instead of creating dashboards.</span>
+                </li>
+                <li>
+                    <a href="writing/index.html">Technical Writing & How-Tos</a>
+                    <span class="description">Practical engineering articles published on Medium.</span>
+                </li>
+            </ul>
         </section>
-        <section>
+
+        <section class="work">
+            <h2>Current Focus</h2>
+            <p>
+                I’m currently exploring early ideas around reconciliation and follow-up tooling for B2B
+                workflows — with a focus on reducing operational leakage and manual overhead.
+            </p>
+        </section>
+
+        <section class="contact">
             <h2>Contact</h2>
-            <p>Feel free to <a href="contact/index.html">contact me</a>.</p>
+            <p>
+                You can reach me <a href="contact/index.html">here</a> or connect with me on LinkedIn.
+            </p>
         </section>
+
     </main>
-    <footer>
-        <p>&copy; 2023 Joseph Schambach</p>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Joseph Schambach</p>
+        </div>
     </footer>
+
 </body>
 </html>

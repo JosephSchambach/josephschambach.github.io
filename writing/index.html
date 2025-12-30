@@ -3,33 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Writing</title>
-    <link rel="stylesheet" href="../../styles.css">
+    <title>Writing | Joseph Schambach</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <header>
-        <h1>My Writing</h1>
+
+    <header class="site-header">
+        <div class="container">
+            <h1>Writing</h1>
+            <p class="subtitle">
+                Essays on systems, reliability, and operational clarity — plus technical writing published elsewhere.
+            </p>
+        </div>
     </header>
-    <main>
+
+    <main class="container">
+
         <section>
-            <h2>Articles</h2>
-            <ul>
-                <li><a href="#">Article 1</a></li>
-                <li><a href="#">Article 2</a></li>
-                <li><a href="#">Article 3</a></li>
+            <h2>Essays</h2>
+            <p>
+                Longer-form writing focused on how systems fail, how responsibility breaks down,
+                and what reliable software actually requires.
+            </p>
+
+            <ul class="writing-list">
+                <li>
+                    <a href="#">Why Reconciliation Is a Systems Problem</a>
+                    <span class="description">
+                        An exploration of why missing follow-ups create more risk than missing data.
+                    </span>
+                </li>
+                <li>
+                    <a href="#">Designing Follow-Up Into Software</a>
+                    <span class="description">
+                        How good systems close loops instead of producing dashboards.
+                    </span>
+                </li>
             </ul>
         </section>
+
         <section>
-            <h2>Short Stories</h2>
-            <ul>
-                <li><a href="#">Story 1</a></li>
-                <li><a href="#">Story 2</a></li>
-                <li><a href="#">Story 3</a></li>
+            <h2>Technical Writing (Medium)</h2>
+            <p>
+                Practical engineering articles and how-tos, primarily focused on backend systems,
+                automation, and applied problem-solving.
+            </p>
+
+            <ul class="writing-list">
+                <li>
+                    <a href="hhttps://medium.com/aws-in-plain-english/handling-environment-variables-in-lambda-the-right-way-ad8afb89ee45" target="_blank" rel="noopener">
+                        Handling Environment Variables in AWS Lambda the Right Way
+                    </a>
+                    <span class="description">
+                        A hands-on guide to correctly handling environment variables in AWS Lambda.
+                    </span>
+                </li>
+                <li>
+                    <a href="https://medium.com/aws-in-plain-english/what-is-provisioned-concurrency-and-when-should-you-use-it-6eab44e9cd46" target="_blank" rel="noopener">
+                        What Is Provisioned Concurrency and When Should You Use It?
+                    </a>
+                    <span class="description">
+                        A deep dive into AWS Lambda's provisioned concurrency feature.
+                    </span>
+                </li>
+                <li>
+                    <a href="https://medium.com/aws-in-plain-english/a-practical-guide-to-scheduling-databricks-jobs-without-the-cli-a0342586e8d3" target="_blank" rel="noopener">
+                        A Practical Guide to Scheduling Databricks Jobs Without the CLI
+                    </a>
+                    <span class="description">
+                        Strategies for managing Databricks jobs using the UI and APIs.
+                    </span>
+                </li>
             </ul>
         </section>
+
+        <section>
+            <p>
+                <a href="../index.html">← Back to home</a>
+            </p>
+        </section>
+
     </main>
-    <footer>
-        <p>&copy; 2023 Joseph Schambach</p>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Joseph Schambach</p>
+        </div>
     </footer>
+
 </body>
 </html>
